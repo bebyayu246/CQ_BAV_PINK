@@ -36,6 +36,7 @@
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnHitungDosen = new System.Windows.Forms.Button();
             this.btnUpdateMK = new System.Windows.Forms.Button();
+            this.btnInsertProgramStudi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -117,11 +118,21 @@
             this.btnUpdateMK.UseVisualStyleBackColor = true;
             this.btnUpdateMK.Click += new System.EventHandler(this.btnUpdateMK_Click);
             // 
+            // btnInsertProgramStudi
+            // 
+            this.btnInsertProgramStudi.Location = new System.Drawing.Point(505, 376);
+            this.btnInsertProgramStudi.Name = "btnInsertProgramStudi";
+            this.btnInsertProgramStudi.Size = new System.Drawing.Size(128, 23);
+            this.btnInsertProgramStudi.TabIndex = 8;
+            this.btnInsertProgramStudi.Text = "ProgramStudi";
+            this.btnInsertProgramStudi.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnInsertProgramStudi);
             this.Controls.Add(this.btnUpdateMK);
             this.Controls.Add(this.btnHitungDosen);
             this.Controls.Add(this.txtHasil);
@@ -148,6 +159,7 @@
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnHitungDosen;
         private System.Windows.Forms.Button btnUpdateMK;
+        private System.Windows.Forms.Button btnInsertProgramStudi;
     }
 }
 
